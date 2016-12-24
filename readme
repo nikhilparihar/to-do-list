@@ -1,0 +1,5 @@
+app folder is used for db connection
+controller folder only contain login controller 
+js folder contain files which are used for all jquery and ajax function
+modal folder contain modals class for doing different sql operation
+view folder contain all html and css content of website 
