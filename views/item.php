@@ -1,5 +1,13 @@
 <?php
 session_start();
+
+ if(empty($_SESSION['UNAME']))
+{ ?>
+  <script>
+window.location = "http://sangifashions.com/to_do_list/views/login.php";
+  </script>
+  <?
+}
 $tempItemName = isset($_SESSION['itemName']) ? $_SESSION['itemName']:"";
 $tempItemQuantity = isset($_SESSION['itemQuantity']) ? $_SESSION['itemQuantity']:"";
 $tempItemDesc = isset($_SESSION['itemDesc']) ? $_SESSION['itemDesc']:"";
@@ -137,5 +145,4 @@ $itemModal = new itemModel();
             echo $e->getMessage();
         }
 }
-session_destroy();
 ?>

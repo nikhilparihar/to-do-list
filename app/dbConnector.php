@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ERROR | E_WARNING | E_PARSE);
+session_start;
 /**
  * Created by PhpStorm.
  * User: nikhil
@@ -8,8 +10,8 @@
 class dbConnector
 {
     public $hostname="localhost";
-    public $username="root";
-    public $password="";
+    public $username="sangifas_biostac";
+    public $password="admin1233#";
 
     public $connection;
 
@@ -20,7 +22,7 @@ class dbConnector
 
     public function connect()
     {
-       return $this->connection = new PDO("mysql:host=$this->hostname; dbname=to_do_list", $this->username, $this->password);
+       return $this->connection = new PDO("mysql:host=$this->hostname; dbname=sangifas_to_do_list", $this->username, $this->password);
     }
 
     public function execute_query($sql)

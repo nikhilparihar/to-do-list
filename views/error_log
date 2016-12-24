@@ -1,0 +1,110 @@
+[24-Dec-2016 07:49:22 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'sangifas_biostac'@'localhost' to database 'sangifas_to_do_list'' in /home/sangifas/public_html/to_do_list/app/dbConnector.php:25
+Stack trace:
+#0 /home/sangifas/public_html/to_do_list/app/dbConnector.php(25): PDO->__construct('mysql:host=loca...', 'sangifas_biosta...', 'admin1233#')
+#1 /home/sangifas/public_html/to_do_list/model/baseModel.php(14): dbConnector->connect()
+#2 /home/sangifas/public_html/to_do_list/model/itemModel.php(13): baseModel->__construct()
+#3 /home/sangifas/public_html/to_do_list/views/home.php(25): itemModel->__construct()
+#4 {main}
+  thrown in /home/sangifas/public_html/to_do_list/app/dbConnector.php on line 25
+[24-Dec-2016 07:57:38 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'sangifas_biostac'@'localhost' to database 'sangifas_to_do_list'' in /home/sangifas/public_html/to_do_list/app/dbConnector.php:25
+Stack trace:
+#0 /home/sangifas/public_html/to_do_list/app/dbConnector.php(25): PDO->__construct('mysql:host=loca...', 'sangifas_biosta...', 'admin1233#')
+#1 /home/sangifas/public_html/to_do_list/model/baseModel.php(14): dbConnector->connect()
+#2 /home/sangifas/public_html/to_do_list/model/itemModel.php(13): baseModel->__construct()
+#3 /home/sangifas/public_html/to_do_list/views/home.php(25): itemModel->__construct()
+#4 {main}
+  thrown in /home/sangifas/public_html/to_do_list/app/dbConnector.php on line 25
+[24-Dec-2016 08:00:58 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'sangifas_biostac'@'localhost' to database 'sangifas_to_do_list'' in /home/sangifas/public_html/to_do_list/app/dbConnector.php:25
+Stack trace:
+#0 /home/sangifas/public_html/to_do_list/app/dbConnector.php(25): PDO->__construct('mysql:host=loca...', 'sangifas_biosta...', 'admin1233#')
+#1 /home/sangifas/public_html/to_do_list/model/LoginModel.php(14): dbConnector->connect()
+#2 /home/sangifas/public_html/to_do_list/controller/LoginController.php(16): LoginModel->__construct()
+#3 /home/sangifas/public_html/to_do_list/views/login.php(6): LoginController->__construct()
+#4 {main}
+  thrown in /home/sangifas/public_html/to_do_list/app/dbConnector.php on line 25
+[24-Dec-2016 08:59:10 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'sangifas_biostac'@'localhost' to database 'sangifas_to_do_list'' in /home/sangifas/public_html/to_do_list/app/dbConnector.php:25
+Stack trace:
+#0 /home/sangifas/public_html/to_do_list/app/dbConnector.php(25): PDO->__construct('mysql:host=loca...', 'sangifas_biosta...', 'admin1233#')
+#1 /home/sangifas/public_html/to_do_list/model/LoginModel.php(14): dbConnector->connect()
+#2 /home/sangifas/public_html/to_do_list/controller/LoginController.php(16): LoginModel->__construct()
+#3 /home/sangifas/public_html/to_do_list/views/login.php(6): LoginController->__construct()
+#4 {main}
+  thrown in /home/sangifas/public_html/to_do_list/app/dbConnector.php on line 25
+[24-Dec-2016 09:14:46 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:14:46 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:14:46 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:14:46 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:14:46 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:14:46 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:15:14 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:15:14 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:15:14 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:15:14 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:15:14 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:15:14 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:18:36 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:18:36 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:18:36 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:18:36 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:18:36 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:18:36 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:18:40 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:18:40 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:18:40 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:18:40 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:18:40 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:18:40 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:21:49 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:21:49 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:21:49 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:21:49 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:21:49 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:21:49 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:24:55 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:24:55 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:24:55 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:24:55 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:24:55 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:24:55 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:25:16 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:25:16 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:25:16 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:25:16 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:25:16 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:25:16 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:25:33 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:25:33 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:25:33 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:25:33 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:25:33 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:25:33 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:26:13 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:26:13 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:26:13 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:26:13 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:26:13 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:26:13 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:33:19 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:33:19 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:33:19 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:33:19 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:33:19 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:33:19 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:37:39 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:37:39 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:37:39 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:37:39 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:37:39 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:37:39 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:37:55 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:37:55 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:37:55 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:37:55 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:37:55 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:37:55 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:40:02 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:40:02 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:40:02 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:40:02 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:40:02 Etc/GMT] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sangifas'@'localhost' (using password: NO) in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24
+[24-Dec-2016 09:40:02 Etc/GMT] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sangifas/public_html/to_do_list/model/baseModel.php on line 24

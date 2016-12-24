@@ -1,5 +1,15 @@
-<?php
+<?php 
+error_reporting(E_ERROR | E_WARNING | E_PARSE);
+
 session_start();
+
+ if(empty($_SESSION['UNAME']))
+{ ?>
+  <script>
+window.location = "http://sangifashions.com/to_do_list/views/login.php";
+  </script>
+  <?
+}
 $tempItemName = isset($_SESSION['itemName']) ? $_SESSION['itemName']:"";
 $tempItemQuantity = isset($_SESSION['itemQuantity']) ? $_SESSION['itemQuantity']:"";
 $tempItemDesc = isset($_SESSION['itemDesc']) ? $_SESSION['itemDesc']:"";
@@ -27,9 +37,11 @@ $id=$itemObj->itemId();
 <head>
     <title>HomePage</title>
 
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript" src="../js/confirmModal.js"></script>
     <script type="text/javascript" src="../js/bought.js"></script>
@@ -43,6 +55,7 @@ $id=$itemObj->itemId();
         </div>
         <ul class="nav navbar-nav navbar-right">
             <li><a href="home.php"><span class="btn btn-primary" >Home</a></span> </li>
+			 <li><a href="Logout.php"><span class="btn btn-primary" >Logout</a></span> </li>
         </ul>
     </div>
 </nav>
@@ -232,7 +245,7 @@ $id=$itemObj->itemId();
                             </td>
                             <td>
                                 <input type="text" name="quantity" id="quantity"class="form-control" value="<?php echo $tempItemQuantity?>"<?php echo isset($_POST['quantity']) ? $_POST['quantity'] : '' ?>" placeholder="Enter quantity">
-                                <?php if(isset($_SESSION['itemQuantityError']) && $_SESSION['itemQuantityError']){?>
+								<?php if(isset($_SESSION['itemQuantityError']) && $_SESSION['itemQuantityError']){?>
                                     <span class="text-danger">Please fill the quantity</span><?php }?>
                             </td>
                         </tr>

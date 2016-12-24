@@ -5,6 +5,15 @@
  * Date: 18-11-2016
  * Time: 16:23
  */
+ session_start();
+
+ if(empty($_SESSION['UNAME']))
+{ ?>
+  <script>
+window.location = "http://sangifashions.com/to_do_list/views/login.php";
+  </script>
+  <?
+}
 include('../model/itemModel.php');
 $itemModal = new itemModel();
 $id = $_POST['id'];

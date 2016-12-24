@@ -1,5 +1,13 @@
 <?php
 session_start();
+
+ if(empty($_SESSION['UNAME']))
+{ ?>
+  <script>
+window.location = "http://sangifashions.com/to_do_list/views/login.php";
+  </script>
+  <?
+}
 $tempPrice = isset($_SESSION['rate']) ? $_SESSION['rate']:"";
 $tempStoreError = isset($_SESSION['storeError']) ? true : false;
 $tempStoreId = isset($_SESSION['storeIid']) ? $_SESSION['storeIid'] :"";
@@ -144,5 +152,5 @@ if(isset($_POST['submit']))
         $e->getMessage();
     }
 }
-session_destroy();
+
 ?>

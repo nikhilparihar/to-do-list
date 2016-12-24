@@ -1,5 +1,13 @@
 <?php
 session_start();
+
+ if(empty($_SESSION['UNAME']))
+{ ?>
+  <script>
+window.location = "http://sangifashions.com/to_do_list/views/login.php";
+  </script>
+  <?
+}
 $tempNewName = isset($_SESSION['newName']) ? $_SESSION['newName']:"";
 $tempNewQuantity = isset($_SESSION['newQuantity']) ? $_SESSION['newQuantity']:"";
 /**
@@ -115,6 +123,6 @@ if(isset($_POST['submit']))
         $e->getMessage();
     }
 }
-session_destroy();
+
 
 ?>

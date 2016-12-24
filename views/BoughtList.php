@@ -5,6 +5,15 @@
  * Date: 11-11-2016
  * Time: 14:11
  */
+ session_start();
+
+ if(empty($_SESSION['UNAME']))
+{ ?>
+  <script>
+window.location = "http://sangifashions.com/to_do_list/views/login.php";
+  </script>
+  <?
+}
 include ('../model/itemModel.php');
 $obj=new itemModel();
 $objects=$obj->bought_list();
